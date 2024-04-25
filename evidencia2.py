@@ -1,5 +1,5 @@
 class  Animal:
-    def__init__(self, nombre, especie):
+    def __init__(self, nombre, especie):
 
     self.nombre= nombre
     self.especie= especie
@@ -26,4 +26,4 @@ from animal import Animal
 
 class Leon(Animal):
     def__init__(self,nombre):
-    self 
+    super().__init__(nombre, "Leon" ) 
